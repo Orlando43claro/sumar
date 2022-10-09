@@ -1,0 +1,9 @@
+document.querySelector("#btnsumar").addEventListener("click",sumaruno);
+let contador=0;
+
+
+function sumaruno(){
+contador= contador+1;
+document.querySelector("msgcontador").innerHTML=contador
+
+}
